@@ -45,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zzh-h4-Ogl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19.5" y="279"/>
+            <point key="canvasLocation" x="180" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -81,15 +81,6 @@
                                     <rect key="frame" x="16" y="337" width="277" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3k-rd-sOI">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="271" height="76"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-4z-XUF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.6788684449951532" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -104,6 +95,24 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H3Q-52-qen"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFt-eO-4ys">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="156" width="159" height="51"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3k-rd-sOI">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="271" height="76"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -111,8 +120,9 @@
                                 <exclude reference="MDD-2J-93l"/>
                                 <exclude reference="Ohe-Ud-OIr"/>
                                 <exclude reference="YLw-6Q-ldy"/>
-                                <exclude reference="a3k-rd-sOI"/>
                                 <exclude reference="p3s-4z-XUF"/>
+                                <exclude reference="tFt-eO-4ys"/>
+                                <exclude reference="a3k-rd-sOI"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -120,8 +130,9 @@
                                 <include reference="MDD-2J-93l"/>
                                 <include reference="Ohe-Ud-OIr"/>
                                 <include reference="YLw-6Q-ldy"/>
-                                <include reference="a3k-rd-sOI"/>
                                 <include reference="p3s-4z-XUF"/>
+                                <include reference="tFt-eO-4ys"/>
+                                <include reference="a3k-rd-sOI"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,11 +141,12 @@
                         <outlet property="enterNameTextField" destination="Ohe-Ud-OIr" id="wD2-Mb-hi8"/>
                         <outlet property="mailButton" destination="p3s-4z-XUF" id="RHf-Bg-H2Y"/>
                         <outlet property="messageLabel" destination="a3k-rd-sOI" id="B7h-q4-o4V"/>
+                        <outlet property="nameLabel" destination="tFt-eO-4ys" id="D2G-Z8-rU9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1165.5" y="86"/>
+            <point key="canvasLocation" x="919.5" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hKP-IC-oDN">
@@ -152,7 +164,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kib-5h-JB4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-343.5" y="423"/>
+            <point key="canvasLocation" x="-537" y="134"/>
         </scene>
     </scenes>
     <resources>
